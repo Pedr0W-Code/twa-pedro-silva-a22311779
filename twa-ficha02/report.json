@@ -1,0 +1,52 @@
+{
+  "count": 5,
+  "total": 2129.9,
+  "categories": {
+    "book": 4,
+    "electronics": 1
+  },
+  "top3": [
+    {
+      "id": 1,
+      "name": "Clean Code",
+      "category": "book",
+      "price": 32.5,
+      "tags": [
+        "dev",
+        "classic"
+      ],
+      "author": {
+        "name": "R. Martin",
+        "country": "US"
+      }
+    },
+    {
+      "id": 2,
+      "name": "The Pragmatic Programmer",
+      "category": "book",
+      "price": 38.9,
+      "tags": [
+        "dev",
+        "programming"
+      ],
+      "author": {
+        "name": "Andrew Hunt",
+        "country": "US"
+      }
+    },
+    {
+      "id": 3,
+      "name": "JavaScript: The Good Parts",
+      "category": "book",
+      "price": 24.5,
+      "tags": [
+        "dev",
+        "javascript"
+      ],
+      "author": {
+        "name": "Douglas Crockford",
+        "country": "US"
+      }
+    }
+  ]
+}

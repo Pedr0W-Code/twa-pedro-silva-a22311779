@@ -3,7 +3,7 @@ export function setupCounter(element) {
   const setCounter = (count) => {
     counter = count
     element.innerHTML = `Count is ${counter}`
-    document.title = `Coint is ${counter}`
+    document.title = `Count is ${counter}`
   }
   element.addEventListener('click', () => setCounter(counter + 1))
   setCounter(0)
